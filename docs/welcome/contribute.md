@@ -35,7 +35,7 @@ For example, if you wish to add a **coding standard** for React, you can create 
 
 ## Sidebar.js
 
-Once you create the doc, you will have to reference it in [`~/sidebar.js`](https://code.qburst.com/vijay/feed-docs/-/blob/develop/sidebars.js), under the correct section. You will also need to follow a few naming conventions and Markdown meta details:
+Once you create the doc, you will have to reference it in [`~/sidebar.js`](https://github.com/feedpm/feed-docs/blob/main/sidebars.js), under the correct section. You will also need to follow a few naming conventions and Markdown meta details:
 
 1. You should follow [kebab-case](https://stackoverflow.com/questions/11273282/whats-the-name-for-hyphen-separated-case) for naming the files.
 1. Make sure you also use the same name as the id of the doc. That's the YAML details on all doc files, between `---`.
@@ -72,7 +72,7 @@ If you make a change, you will have to update the `name` and `date` with your na
 
 ## Merge request
 
-You can create a new branch from the `develop` to start working on a new change. Once completed, you can raise a merge request against `develop`. Please assign your respective approvers.
+You can create a new branch from the `main` to start working on a new change. Once completed, you can raise a merge request against `main`. Please assign your respective approvers.
 
 The approvers will review your changes. If everything is good, they will approve your contribution.
 

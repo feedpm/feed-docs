@@ -1,8 +1,8 @@
-[![pipeline status](https://code.qburst.com/vijay/feed-docs/badges/develop/pipeline.svg)](https://code.qburst.com/vijay/feed-docs/-/commits/develop)
+![pipeline status](https://github.com/feedpm/docs/feed-docs/workflows/deploy.yml/badge.svg)
 
 # feed-docs
 
-[feed-docs](http://feed-docs.qburst.build/) is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+[feed-docs](https://feedpm.github.io/feed-docs/) is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
 ### Prerequisite
 
