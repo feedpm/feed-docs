@@ -10,8 +10,8 @@
 module.exports = {
   title: 'FEED Docs',
   tagline: 'QBurst FEED team documentations',
-  url: 'https://feed-docs.qburst.build',
-  baseUrl: '/feed-docs/',
+  url: 'https://feedpm.github.io',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'qburst',
   projectName: 'feed-docs',
@@ -22,12 +22,12 @@ module.exports = {
         alt: 'My Facebook Project Logo',
         src: 'img/icon.svg',
       },
-      links: [
+      items: [
         {to: 'docs/welcome/intro', label: 'Docs', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'left'},
         // Please keep GitHub link to the right for consistency.
         {
-          href: 'https://code.qburst.com/vijay/feed-docs',
+          href: 'https://github.com/feedpm/feed-docs',
           label: 'Gitlab',
           position: 'right',
         },
@@ -96,7 +96,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://code.qburst.com/vijay/feed-docs/tree/develop',
+          editUrl: 'https://github.com/feedpm/feed-docs/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
