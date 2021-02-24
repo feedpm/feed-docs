@@ -11,7 +11,7 @@ module.exports = {
   title: 'FEED Docs',
   tagline: 'QBurst FEED team documentations',
   url: 'https://feedpm.github.io',
-  baseUrl: '/',
+  baseUrl: '/feed-docs/',
   favicon: 'img/favicon.ico',
   organizationName: 'qburst',
   projectName: 'feed-docs',
