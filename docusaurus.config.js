@@ -28,7 +28,7 @@ module.exports = {
         // Please keep GitHub link to the right for consistency.
         {
           href: 'https://github.com/feedpm/feed-docs',
-          label: 'Gitlab',
+          label: 'GitHub',
           position: 'right',
         },
       ],
