@@ -1,4 +1,4 @@
-![pipeline status](https://github.com/feedpm/docs/feed-docs/workflows/deploy.yml/badge.svg)
+![pipeline status](https://github.com/feedpm/feed-docs/actions/workflows/deploy.yml/badge.svg)
 
 # feed-docs
 
