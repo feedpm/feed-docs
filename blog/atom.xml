@@ -10,21 +10,21 @@
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>Welcome</id>
-        <link href="https://feedpm.github.io/blog/2019/05/30/welcome"/>
+        <link href="https://feedpm.github.io/feed-docs/blog/2019/05/30/welcome"/>
         <updated>2019-05-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello]]></title>
         <id>Hello</id>
-        <link href="https://feedpm.github.io/blog/2019/05/29/hello-world"/>
+        <link href="https://feedpm.github.io/feed-docs/blog/2019/05/29/hello-world"/>
         <updated>2019-05-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2 alpha.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hola]]></title>
         <id>Hola</id>
-        <link href="https://feedpm.github.io/blog/2019/05/28/hola"/>
+        <link href="https://feedpm.github.io/feed-docs/blog/2019/05/28/hola"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
     </entry>
