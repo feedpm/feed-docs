@@ -1,0 +1,37 @@
+.editedBy {
+  display: block;
+  display: flex;
+  margin-top: 3rem;
+}
+
+.block {
+  color: var(--ifm-color-content-secondary);
+  padding: 0.6rem 0.9rem;
+  border-style: solid;
+  border-color: var(--ifm-table-border-color);
+}
+
+.block:first-child {
+  border-radius: var(--ifm-global-radius) 0 0 var(--ifm-global-radius);
+  border-width: 1px 0 1px 1px;
+}
+.block:last-child {
+  border-radius: 0 var(--ifm-global-radius) var(--ifm-global-radius) 0;
+  border-width: 1px;
+}
+.block:nth-child(2):not(:last-child) {
+  border-width: 1px 0 1px 1px;
+}
+
+.label,
+.value {
+  font-size: 0.85rem;
+  display: block;
+  line-height: 1;
+}
+
+.value {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-top: 0.2rem;
+}

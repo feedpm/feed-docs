@@ -1,0 +1,99 @@
+.form {
+  --color: inherit;
+  --border-color: var(--ifm-table-border-color);
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  margin: 40px 0;
+  color: var(--color);
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.form.success {
+  --color: var(--ifm-color-success);
+  --border-color: #81C784;
+}
+
+.form.failed {
+  --color: var(--ifm-color-danger);
+  --border-color: #e57373;
+}
+
+.question {
+  margin: 0;
+  padding: 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.options {
+  display: flex;
+  flex-flow: column;
+}
+
+@media (min-width: 786px) {
+  .options {
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+}
+
+.option {
+  flex: 0 50%;
+  padding: 20px;
+  position: relative;
+}
+
+.option:not(:last-child) {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.option.noBorderBottom {
+  border-bottom: none;
+}
+
+@media (min-width: 786px) {
+  .option:nth-child(odd) {
+    border-right: 1px solid var(--border-color);
+  }
+}
+
+.option input {
+  position: absolute;
+  left: -999px;
+}
+
+.option label {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 20px 20px 20px 50px;
+  cursor: pointer;
+}
+
+.form.success .option label,
+.form.failed .option label {
+  cursor: default;
+}
+
+.option svg {
+  position: relative;
+  top: 6px;
+  animation: appear 0.2s ease;
+}
+
+.form.success .option .input,
+.form.failed .option .input {
+  opacity: 0.3;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0.5;
+    transform: scale(0.7);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
