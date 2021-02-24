@@ -88,7 +88,7 @@ module.exports = {
       // Please do not remove the credits, help to publicize Docusaurus :)
       copyright: `Copyright © ${new Date().getFullYear()} QBurst. Maintained by FEED team. Built with Docusaurus.`,
     },
-    sidebarCollapsible: false,
+    sidebarCollapsible: true,
   },
   presets: [
     [
