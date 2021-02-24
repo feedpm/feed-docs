@@ -67,9 +67,9 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 [I'm a reference-style link][arbitrary case-insensitive reference text]
 
-[I'm a reference link to another doc](welcome/intro)
+[I'm a reference link to another doc](/docs/welcome/intro)
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
+<!-- [I'm a relative reference to a repository file](/docs/blob/master/LICENSE) -->
 
 [You can use numbers for reference-style link definitions][1]
 

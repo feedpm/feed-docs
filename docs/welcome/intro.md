@@ -25,8 +25,8 @@ The portal is still in an early stage of construction and revision.
 Only QBurst FEED team members can contribute.
 :::
 
-1. If you're new to Markdown make sure you get yourself acquainted with the [Style Guide](welcome/style-guide). It's a cheat sheet on how you can use different formating.
-1. You can browse [Contributing](welcome/contribute) to understand how to contributing. The docs are organized under each section. There are a few unique steps to make a contribution.
-1. You can also spice up Markdown with MDX features. You can browse [MDX](welcome/mdx) to add custom React components for richer experiences.
+1. If you're new to Markdown make sure you get yourself acquainted with the [Style Guide](/docs/welcome/style-guide). It's a cheat sheet on how you can use different formating.
+1. You can browse [Contributing](/docs/welcome/contribute) to understand how to contributing. The docs are organized under each section. There are a few unique steps to make a contribution.
+1. You can also spice up Markdown with MDX features. You can browse [MDX](/docs/welcome/mdx) to add custom React components for richer experiences.
 
 <EditedBy name="Vijay dev" date="24/02/2020" />
