@@ -108,11 +108,11 @@ In our current application, since we have implemented lazy loading the customer 
 
 ### Lazy Loading- Loading Customer module on request
 
-Customers-customers-module.js gets loaded only when the customer button is clicked ![alt text](./img/lazy-loading-customer.png 'Lazy Loading Customer module')
+Customers-customers-module.js gets loaded only when the customer button is clicked ![alt text](/img/lazy-loading-customer.png 'Lazy Loading Customer module')
 
 ### Lazy Loading- Loading Order module on request
 
-orders-orders-module.js gets loaded only when the order button is clicked ![alt text](./img/lazy-loading-order.png 'Lazy Loading Order module')
+orders-orders-module.js gets loaded only when the order button is clicked ![alt text](/img/lazy-loading-order.png 'Lazy Loading Order module')
 
 By using lazy-loading we have broken down the application in different chunks, thus increasing the performance.
 
