@@ -16,17 +16,11 @@ module.exports = {
       'welcome/mdx',
     ],
     CSS: [
-      'css/intro',
       'css/coding-guidelines',
       {
         type: 'category',
-        label: 'Tranings',
+        label: 'Trainings',
         items: ['css/css-syllabus'],
-      },
-      {
-        type: 'category',
-        label: 'Reusable components',
-        items: ['css/comp1'],
       },
       'css/tools',
       'css/research-development',
@@ -38,7 +32,7 @@ module.exports = {
       'js/coding-guidelines',
       {
         type: 'category',
-        label: 'Tranings',
+        label: 'Trainings',
         items: ['js/train1'],
       },
       {
@@ -107,7 +101,7 @@ module.exports = {
       'node/coding-guidelines',
       {
         type: 'category',
-        label: 'Tranings',
+        label: 'Trainings',
         items: ['node/train1'],
       },
       {
@@ -123,7 +117,7 @@ module.exports = {
       'react-native/mobile-ui-development-guidelines',
       {
         type: 'category',
-        label: 'Tranings',
+        label: 'Trainings',
         items: ['react-native/train1'],
       },
       {
