@@ -51,7 +51,7 @@ CSS: [
   'css/coding-guidelines',
   {
     type: 'category',
-    label: 'Tranings',
+    label: 'Trainings',
     items: ['css/understanding-display'],
   },
   {
