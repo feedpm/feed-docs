@@ -49,3 +49,7 @@
 code {
   background-color: var(--ifm-table-border-color);
 }
+
+.navbar__brand img{
+  transform: rotate(45deg);
+}
