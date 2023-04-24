@@ -15,18 +15,7 @@ module.exports = {
       'welcome/style-guide',
       'welcome/mdx',
     ],
-    CSS: [
-      'css/coding-guidelines',
-      {
-        type: 'category',
-        label: 'Trainings',
-        items: ['css/css-syllabus'],
-      },
-      'css/tools',
-      'css/research-development',
-      'css/form-ux',
-      'css/ui-tips',
-    ],
+    CSS: ['css/coding-guidelines', 'css/tools', 'css/form-ux', 'css/ui-tips'],
     JS: [
       'js/intro',
       'js/coding-guidelines',

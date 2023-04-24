@@ -6,198 +6,234 @@ sidebar_label: Coding guidelines
 
 import EditedBy from '../../src/components/EditedBy'
 
-### Implementing the CSS Reset
+### HTML
 
-The major goal of a reset stylesheet is to reduce incompatibilities across various browsers – it provides general styles, which can be easily edited and styled as per your requirements.One of the common examples of a reset CSS style sheet is normalize.css – which is a modern HTML 5 CSS reset.You have to include this reset CSS style sheet preceding your style definition under the section ‘head’ within your HTML file in order to prevent these from overriding your style definitions that follow.
-
----
-
-### Comments
-
-Divide your stylesheet into specific sections: i.e. Global styles – (body, paragraphs, lists, etc), Header, Page structure, Headings, Text styles, Navigation, Forms, Comments, and Extras.
-
-```css
-/* -----------------------------------*/
-/* ---------->>> GLOBAL <<<-----------*/
-/* -----------------------------------*/
-```
-
-Comments should be used liberally to explain anything that may be unclear at first glance.
-
-```css
-.prose p {
-  font-size: 1.1666em /* 14px / 12px */;
-}
-
-.ie7 .search-form {
-  /*
-    Force the item to have layout in IE7 by setting display to block.
-    See: http://reference.sitepoint.com/css/haslayout
-  */
-  display: inline-block;
-}
-```
+1. Use semantic HTML: Use HTML elements that clearly describe their meaning and purpose, such as `<header>, <nav>, <main>, <footer>, <article>, <section>`, etc. This helps search engines and screen readers understand your content better and improves accessibility.
+2. Use valid HTML: Ensure your HTML code is valid and well-formed by using the appropriate tags, attributes, and values. You can validate your HTML code using tools like the W3C Markup Validation Service.
+3. Use indentation and whitespace: Use proper indentation and whitespace to make your code easier to read and understand. This also helps to identify nested elements and their relationships.
+4. Avoid inline styles: Avoid using inline styles (style attributes) in your HTML code. Instead, use external stylesheets or internal styles within the `<head>` section of your HTML document.
+5. Use lowercase: Use lowercase for all HTML tags, attributes, and attribute values. This is not required by the HTML specification, but it is a widely adopted convention that makes your code easier to read and maintain.
 
 ---
 
-### Organize the Stylesheet with a Top-down Structure
+### Plan your CSS
 
-It always makes sense to lay your stylesheet out in a way that allows you to quickly find parts of your code. So, an example stylesheet might be ordered like this:
-
-Generic classes (body, a, p, h1, etc.)
-
-1. header
-1. #nav-menu
-1. #main-content
+Before diving in and writing huge chunks of CSS, plan your styles carefully. What general styles are going to be needed, what different layouts do you need to create, what specific overrides need to be created, and are they reusable? Above all, you need to try to avoid too much overriding. If you keep finding yourself writing styles and then cancelling them again a few rules down, you probably need to rethink your strategy.
 
 ---
 
-### Formatting
+### Organizing all Elements of the Stylesheet
 
-All CSS documents must use two spaces for indentation and files should have no trailing whitespace. Other formatting rules:
+Organizing the elements of a Stylesheet from top to bottom might not be as easy as it might seem to be. Sometimes, if the designer has the least idea of CSS, they might start organizing the elements by arranging these in the order they would like them to be. However, when it comes to writing CSS code, this might not be a good practice, as it might become difficult for others or yourself to locate the CSS code elements within the stylesheet.
 
-- Use soft-tabs with a two space indent.
-- Avoiding inline styling
+They can be ordered starting from inclusive styles, which include body, H1, p, a and similar ones. These should be followed by a header and a footer.
 
-#### Anatomy of a Ruleset
+Below given is an example of how this code structure should be written:
 
-<!-- prettier-ignore-start -->
+As an example consider the code structure below.
+
 ```css
-/* GOOD */
-.foo,.foo--bar,
-.baz {
-  display: block;
-  background-color: green;
-  color: red;
-}
+/****** General Styles *********/
+body {…}
+h1, h2, h3 {..}
+p {…}
+a {…}
 
-/* BAD */
-.foo,
-.foo--bar,
-.baz {
-  display: block;
-  background-color: green;
-  color: red;
-}
+
+/****** Header Style *********/
+#header {…}
+
+
+/****** Navigation Style *********/
+#nav {…}
+
+
+/****** Footer Style *********/
+#footer {…}
 ```
-<!-- prettier-ignore-end -->
-
-- Related selectors on the same line. Unrelated selectors on new lines.
-- A space before our opening brace ( `{` );
-- Properties and values on the same line;
-- A space after our property–value delimiting colon ( `:` );
-- Each declaration on its own new line;
-- The opening brace ( `{` ) on the same line as our last selector;
-- Our first declaration on a new line after our opening brace ( `{` );
-- Our closing brace ( `}` ) on its own new line;
-- Each declaration indented by two (2) spaces;
-- A trailing semi-colon ( `;` ) on our last declaration.
-- Place the closing brace of a ruleset in the same column as the first character of the ruleset.
-- Separate each ruleset by a blank line.
-- Avoid using tag names in selectors as this prevents re-use in other contexts.
-- Also ids should be avoided in selectors as it makes it far too difficult to override later in the cascade.
-
-#### Multi-line CSS
-
-CSS should be written across multiple lines, except in very specific circumstances such as similar rulesets that only carry one declaration each.
-
-<!-- prettier-ignore-start -->
-```css
-.icon {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  background-image: url(/img/sprite.svg);
-}
-
-.icon--home { background-position: 0 0; }
-.icon--person { background-position: -16px 0; }
-```
-<!-- prettier-ignore-end -->
-
-#### Values
-
-- Always define generic font families like sans-serif or serif.
-- Use lowercase and shorthand hex values
-- If you use 0 as a value, do not add a unit (px, em, etc.) after it.
-- Use single or double quotes consistently. Preference is for double quotes, e.g., content: "".
-- Include a space after each comma in comma-separated property or function values.
-- It is a bad practice to use !important
 
 ---
 
-### Naming
+### Use flexible/relative units
 
-All ids, classes and attributes must be lowercase with hyphens used for separation.
+For maximum flexibility over the widest possible range of devices, it is a good idea to size containers, padding, etc. using relative units like ems and rems or percentages and viewport units if you want them to vary depending on viewport width.
 
-```css
-/* GOOD */
-.dataset-list {
-}
+---
 
-/* BAD */
-.datasetlist {
-}
-.datasetList {
-}
-.dataset_list {
-}
-```
+### Don't use resets
 
-#### BEM-like Naming
+For maximum control over CSS across platforms, a lot of people used to use CSS resets to remove every style, before then building things back up themselves. This certainly has its merits, but especially in the modern world, CSS resets can be an overkill, resulting in a lot of extra time spent reimplementing things that weren't completely broken in the first place, like default margins, list styles, etc.
 
-BEM splits components’ classes into three groups:
+If you really feel like you need to use a reset, consider using [normalize.css by Nicolas Gallagher,](https://necolas.github.io/normalize.css/) which aims to just make things more consistent across browsers, get rid of some default annoyances that we always remove (the margins on `<body>`, for example) and fix a few bugs.
 
-- Block: The sole root of the component.
-- Element: A component part of the Block.
-- Modifier: A variant or extension of the Block.
+---
 
-Elements are delimited with two (2) underscores (\_\_), and Modifiers are delimited by two (2) hyphens (--).
+### !important
+
+!important is the last resort that is generally used only when you need to override something and there is no other way to do it. Using !important is a bad practice and you should avoid it wherever possible.
 
 ```css
-.person {
-}
-.person__head {
-}
-.person--tall {
+.bad-code {
+  font-size: 4rem !important;
 }
 ```
 
 ---
 
-### Mobile-First Responsive Design
+### CSS comments
 
-The mobile-first approach is a tenet of progressive enhancement. It is the ideology that mobile design, as the hardest, should be done first. Once the mobile design questions are answered, designing for other devices will be easier. What it boils down to is that, the smallest of the designs will have only the essential features.
+Use CSS-style comments to comment code that isn't self-documenting. Also note that you should leave a space between the asterisks and the comment.
+
+```css
+/* This is a CSS-style comment */
+```
+
+Put your comments on separate lines preceding the code they are referring to, like so:
+
+```css
+h3 {
+  /* Creates a red drop shadow, offset 1px right and down, w/2px blur radius */
+  text-shadow: 1px 1px 2px red;
+  /* Sets the font-size to double the default document font size */
+  font-size: 2rem;
+}
+```
 
 ---
 
-### Basic breakpoints in Responsive Design
+### Double quotes around values
+
+Where quotes can or should be included, use them, and use double quotes. For example:
 
 ```css
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  ...;
+[data-vegetable='liquid'] {
+  background-color: goldenrod;
+  background-image: url('../../media/examples/lizard.png');
+}
+```
+
+---
+
+### Mobile-first media queries
+
+In a stylesheet that contains [media query](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) styles for different target viewport sizes, first include the narrow screen/mobile styling before any other media queries are encountered. Add styling for wider viewport sizes via successive media queries. Following this rule has many advantages that are explained in the [Mobile First](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Responsive/Mobile_first) article.
+
+```css
+/* Default CSS layout for narrow screens */
+
+@media (min-width: 480px) {
+  /* CSS for medium width screens */
 }
 
-// Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  ...;
+  /* CSS for wide screens */
 }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  ...;
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  ...;
+@media (min-width: 1024px) {
+  /* CSS for really wide screens */
 }
 ```
 
-### Shrink CSS file size with CSS Compressors
+---
 
-It’s really a great idea to shrink the CSS file size as it will remove white spaces, line breaks and remove redundant CSS styles. Through this, you can help browsers to speed up the loading of your CSS codes. Using tools like CSS Compressor and CSS Compressor & Minifier can make this happen.
+### Selectors
+
+- Don't use ID selectors because they are:
+  - less flexible; you can't add more if you discover you need more than one.
+  - harder to override because they have higher specificity than classes.
+
+```css
+/* Good Approach */
+.editorial-summary {
+  /* ... */
+}
+```
+
+```css
+/* Bad Approach */
+#editorial-summary {
+  /* ... */
+}
+```
+
+- When a rule has multiple selectors, put each selector on a new line. This makes the selector list easier to read and can help to make code lines shorter.
+
+```css
+/* Good Approach */
+h1,
+h2,
+h3 {
+  font-family: sans-serif;
+  text-align: center;
+}
+```
+
+```css
+/* Bad Approach */
+h1,
+h2,
+h3 {
+  font-family: sans-serif;
+  text-align: center;
+}
+```
+
+---
+
+### Space after function parameters
+
+Function parameters should have spaces after their separating commas, but not before:
+
+```css
+color: rgb(255, 0, 0);
+background-image: linear-gradient(to bottom, red, black);
+```
+
+---
+
+### Syntax style
+
+There are a variety of CSS writing styles you can use, but we prefer the expanded style, with the selector/opening brace, close brace, and each declaration on a separate line. This maximizes readability, and again, promotes consistency on MDN Web Docs.
+
+In addition, keep these specifics in mind:
+
+- Include a space between the selector(s) and the opening curly brace.
+- Always include a semicolon at the end of the last declaration, even though it isn't strictly necessary.
+- Put the closing curly brace on a new line.
+- In each declaration, put a space after the separating colon, but not before.
+- Use two spaces for code indentation.
+
+```css
+p {
+  color: white;
+  background-color: black;
+  padding: 1rem;
+}
+```
+
+```css
+p {
+  color: white;
+  background-color: black;
+  padding: 1rem;
+}
+```
+
+---
+
+### Value to turn off properties
+
+When turning off borders (and any other properties that can take `0` or `none` as values), use `0` rather than `none`:
+
+```css
+border: 0;
+```
+
+---
+
+### Shrinking CSS File Size using CSS Compressors
+
+If you feel that there is something wrong while the CSS codes get loaded over the browsers and it seems to be lagging behind in speed, then there is high time you tried to compress the size of the CSS files. A lot of elements, including line breaks, white spaces, and even redundant CSS styles might be interfering with your CSS file and delaying your site from loading quicker. Some of the tools that you can use to get rid of these issues include CSS Compressor or blend it with Minifier to utilize the benefits to its fullest.
 
 ---
 
@@ -207,4 +243,4 @@ You can always use the [W3C free CSS validator](https://jigsaw.w3.org/css-valida
 
 ---
 
-<EditedBy name="Priya Sasidharan" date="20/03/2020" />
+<EditedBy name="Ann" date="24/04/2023" />
