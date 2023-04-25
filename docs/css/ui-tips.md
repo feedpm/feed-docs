@@ -6,6 +6,110 @@ sidebar_label: UI Tips
 
 import EditedBy from '../../src/components/EditedBy'
 
+### Social login
+
+[![Image](/img/social-media.png 'UI Tips')](/img/social-media.png)
+
+### Better Menu
+
+Dropdowns can be more than just a boring list of links. They're just boxes, you can do anything you want with them
+
+[![Image](/img/better-menu-dropdown.jpg 'UI Tips')](/img/better-menu-dropdown.jpg)
+
+Keeping the second layer such as a drop-down atleast 2 shades(or tints) different than the background helps in creating visual prominence
+
+[![Image](/img/better-menu1.jpg 'UI Tips')](/img/better-menu1.jpg)
+
+### Delete Modal
+
+Make the action clarified
+
+[![Image](/img/delete-modal.png 'UI Tips')](/img/delete-modal.png)
+
+### Align Uneven Elements
+
+All items should be aligned in a same width
+
+[![Image](/img/uneven-element.png 'UI Tips')](/img/uneven-element.png)
+
+### Inform Users Beforehand
+
+[![Image](/img/inform-user.png 'UI Tips')](/img/inform-user.png)
+
+### Distinguish Selected Items
+
+Distinguishing selected items will help in creating visual prominence.
+
+[![Image](/img/distinguish.png 'UI Tips')](/img/distinguish.png)
+
+### Avoid Fullwidth Paragraphs
+
+[![Image](/img/fullwidth.png 'UI Tips')](/img/fullwidth.png)
+
+### Use Labels Cleverly
+
+[![Image](/img/labels.png 'UI Tips')](/img/labels.png)
+
+### Adding color based
+
+Add color-based distinctions to highlight significant classifications and allow quick visual scanning
+
+[![Image](/img/color-based.jpg 'UI Tips')](/img/color-based.jpg)
+
+### Checklist and Radio Button
+
+Checklist - For multiple choice selections Radio Button - For single choice selection
+
+[![Image](/img/checklist-radio.jpg 'UI Tips')](/img/checklist-radio.jpg)
+
+### Content Emphasis
+
+Create Content Emphasis with the introduction of icons or imagery wherever possible to increase to increase engagement
+
+[![Image](/img/content-emphasis.jpg 'UI Tips')](/img/content-emphasis.jpg)
+
+### Overlapping images
+
+Overlapping images adds focus & depth to an interface. It is also a great way to optimise space issue.
+
+[![Image](/img/overlapping-img.jpg 'UI Tips')](/img/overlapping-img.jpg)
+
+### Overlapping elements
+
+Overlapping elements on a page is a great way to create depth and encourage users to scroll
+
+[![Image](/img/overlapping-element.png 'UI Tips')](/img/overlapping-element.png)
+
+### Contrast v/s Keyline
+
+A technique I've been using lately on panels to distinguish the titles instead of a keyline is using subtle contrast:
+
+[![Image](/img/contrast-keyline.png 'UI Tips')](/img/contrast-keyline.png)
+
+### Letter-spacing in all-caps
+
+Quick tip: All-caps can sometimes be difficult to read. Consider using letter-spacing to give your text a little more room to breathe
+
+[![Image](/img/letter-spacing.png 'UI Tips')](/img/letter-spacing.png)
+
+### Multiples to define spacing
+
+Using multiples to define your spacing is a great way to achieve vertical rhythm and provides a formula to justify your choices
+
+[![Image](/img/spacing.jpg 'UI Tips')](/img/spacing.jpg)
+
+### Space the sections
+
+For minimal representation, space the sections instead of introducing a new element such as a line to create a division
+
+[![Image](/img/spacing-section.jpg 'UI Tips')](/img/spacing-section.jpg)
+
+### Text alignment
+
+Aligning text is an easy way to clean up your design and make your content much more scannable.
+
+[![Image](/img/text-align.png 'UI Tips')](/img/text-align.png)
+
 ### Reduce borders
 
 Too many borders can make a design look really busy
