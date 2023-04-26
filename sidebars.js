@@ -17,6 +17,11 @@ module.exports = {
     ],
     CSS: [
       'css/coding-guidelines',
+      {
+        type: 'category',
+        label: 'Trainings',
+        items: ['css/css-syllabus'],
+      },
       'css/tools',
       'css/microinteraction',
       'css/form-ux',
