@@ -23,7 +23,7 @@ module.exports = {
         items: ['css/css-syllabus'],
       },
       'css/tools',
-      'css/research-development',
+      'css/microinteraction',
       'css/form-ux',
       'css/ui-tips',
     ],

@@ -56,15 +56,9 @@ Add color-based distinctions to highlight significant classifications and allow 
 
 [![Image](/img/color-based.jpg 'UI Tips')](/img/color-based.jpg)
 
-### Checklist and Radio Button
-
-Checklist - For multiple choice selections Radio Button - For single choice selection
-
-[![Image](/img/checklist-radio.jpg 'UI Tips')](/img/checklist-radio.jpg)
-
 ### Content Emphasis
 
-Create Content Emphasis with the introduction of icons or imagery wherever possible to increase to increase engagement
+Create Content Emphasis with the introduction of icons or imagery wherever possible to increase engagement
 
 [![Image](/img/content-emphasis.jpg 'UI Tips')](/img/content-emphasis.jpg)
 
@@ -82,7 +76,7 @@ Overlapping elements on a page is a great way to create depth and encourage user
 
 ### Contrast v/s Keyline
 
-A technique I've been using lately on panels to distinguish the titles instead of a keyline is using subtle contrast:
+A technique used on panels to distinguish the titles instead of a keyline is subtle contrast:
 
 [![Image](/img/contrast-keyline.png 'UI Tips')](/img/contrast-keyline.png)
 
