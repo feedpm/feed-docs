@@ -204,6 +204,7 @@ In addition, keep these specifics in mind:
 - Use two spaces for code indentation.
 
 ```css
+/* Good Approach */
 p {
   color: white;
   background-color: black;
@@ -212,6 +213,7 @@ p {
 ```
 
 ```css
+/* Bad Approach */
 p {
   color: white;
   background-color: black;
