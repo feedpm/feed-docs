@@ -22,11 +22,9 @@ Before diving in and writing huge chunks of CSS, plan your styles carefully. Wha
 
 ---
 
-### Organizing all Elements of the Stylesheet
+### Organizing all elements of the stylesheet
 
-Organizing the elements of a Stylesheet from top to bottom might not be as easy as it might seem to be. Sometimes, if the designer has the least idea of CSS, they might start organizing the elements by arranging these in the order they would like them to be. However, when it comes to writing CSS code, this might not be a good practice, as it might become difficult for others or yourself to locate the CSS code elements within the stylesheet.
-
-They can be ordered starting from inclusive styles, which include body, H1, p, a and similar ones. These should be followed by a header and a footer.
+Organizing the elements of a stylesheet should begin with inclusive styles, such as body, H1, p, and a, followed by a header and a footer. The organization should be from top to bottom.
 
 Below given is an example of how this code structure should be written:
 
@@ -56,7 +54,7 @@ a {…}
 
 ### Use flexible/relative units
 
-For maximum flexibility over the widest possible range of devices, it is a good idea to size containers, padding, etc. using relative units like ems and rems or percentages and viewport units if you want them to vary depending on viewport width.
+For maximum flexibility over the widest possible range of devices, it is a good idea to size containers, padding, etc. using relative units like rems and viewport units if you want them to vary depending on viewport width.
 
 ---
 
@@ -70,7 +68,7 @@ If you really feel like you need to use a reset, consider using [normalize.css b
 
 ### !important
 
-!important is the last resort that is generally used only when you need to override something and there is no other way to do it. Using !important is a bad practice and you should avoid it wherever possible.
+!important is the last resort that is generally used only when you need to override something and there is no other way to do it. Using !important is a bad practice and you should avoid it wherever possible. To avoid !important scope the CSS in a parent-child or block-element pattern.
 
 ```css
 .bad-code {
@@ -139,8 +137,8 @@ In a stylesheet that contains [media query](https://developer.mozilla.org/en-US/
 ### Selectors
 
 - Don't use ID selectors because they are:
-  - less flexible; you can't add more if you discover you need more than one.
-  - harder to override because they have higher specificity than classes.
+  - Less flexible; you can't add more if you discover you need more than one.
+  - Harder to override because they have higher specificity than classes.
 
 ```css
 /* Good Approach */
@@ -229,7 +227,7 @@ border: 0;
 
 ### Shrinking CSS File Size using CSS Compressors
 
-If you feel that there is something wrong while the CSS codes get loaded over the browsers and it seems to be lagging behind in speed, then there is high time you tried to compress the size of the CSS files. A lot of elements, including line breaks, white spaces, and even redundant CSS styles might be interfering with your CSS file and delaying your site from loading quicker. Some of the tools that you can use to get rid of these issues include CSS Compressor or blend it with Minifier to utilize the benefits to its fullest.
+If you measure that the CSS takes more time to download on an average network (throttle in network tab), then you may compress the CSS to shave off all the white spaces, new lines; even redundant styles. All these take extra time to download, parse and apply cascadingly. Some of the tools that you can use to get rid of these issues include CSS Compressor or blend it with Minifier to utilize the benefits to its fullest.
 
 ---
 
