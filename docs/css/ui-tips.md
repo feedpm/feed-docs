@@ -217,4 +217,4 @@ Use accent borders to add color to a bland design
 
 [![Image](/img/ui-button-design-rules-4.jpg 'UI Tips')](/img/ui-button-design-rules-4.jpg)
 
-<EditedBy name="Priya, Shahina" updated="Vijay Dev" date="13/05/2020" />
+<EditedBy name="Priya, Ann" updated="Pulari" date="26/04/2022" />

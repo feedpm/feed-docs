@@ -8,93 +8,46 @@ import EditedBy from '../../src/components/EditedBy'
 
 List of tools, libraries, browser extensions, editor packages.
 
-### Browser extensions
+### Chrome Extensions
 
-#### pagespeed
+- [WhatFont](https://wpastra.com/resources/chrome-developer-extensions/#2-whatfont) - Identify fonts used on web pages
+- [ColorPick Eyedropper](https://wpastra.com/resources/chrome-developer-extensions/#4-colorpick-eyedropper) - identify any colour on any web page
+- [Window Resizer](https://wpastra.com/resources/chrome-developer-extensions/#5-window-resizer) - will resize any screen you’re working on to a range of popular screen sizes.
+- [BrowserStack](https://wpastra.com/resources/chrome-developer-extensions/#6-browserstack) - Rather than different screen sizes, this extension lets you test with different browsers.
+- [CSS Viewer](https://wpastra.com/resources/chrome-developer-extensions/#7-css-viewer) - hows you the CSS properties of a given page wherever you hover your mouse.
+- [Lorem Ipsum Generator](https://wpastra.com/resources/chrome-developer-extensions/#8-lorem-ipsum-generator) - It generates filler text for demo websites
+- [Corporate Ipsum](https://wpastra.com/resources/chrome-developer-extensions/#9-corporate-ipsum) - This Chrome developer extension generates lorem ipsum but with a corporate twist.
+- [Ghostery](https://wpastra.com/resources/chrome-developer-extensions/#10-ghostery) - privacy extension designed to block intrusive ads, stop tracking, prevent data collection and block all those page elements that slow you down.
 
-Analyze the performance of your webpages and get specific suggestions on how to optimize them.
+- [HTML Validator](https://wpastra.com/resources/chrome-developer-extensions/#13-html-validator)
 
-1. image compression, optimization, and scaling
-2. minify html,css, and js
-3. browser caching
-4. etc
+- [React Developer Tools](https://wpastra.com/resources/chrome-developer-extensions/#14-react-developer-tools)
+- [JSON Viewer](https://wpastra.com/resources/chrome-developer-extensions/#15-json-viewer)
+- [ColorZilla](https://wpastra.com/resources/chrome-developer-extensions/#16-colorzilla)
+- [Dimensions](https://wpastra.com/resources/chrome-developer-extensions/#17-dimensions)
+- [Page Ruler](https://wpastra.com/resources/chrome-developer-extensions/#18-page-ruler)
+- [UX Check](https://wpastra.com/resources/chrome-developer-extensions/#19-ux-check)
+- [Check My Links](https://wpastra.com/resources/chrome-developer-extensions/#20-check-my-links)
+- [Web Developer Checklist](https://wpastra.com/resources/chrome-developer-extensions/#21-web-developer-checklist)
+- [Checkbot](https://wpastra.com/resources/chrome-developer-extensions/#22-checkbot)
+- [Web Developer](https://wpastra.com/resources/chrome-developer-extensions/#23-web-developer)
+- [Lightshot](https://wpastra.com/resources/chrome-developer-extensions/#25-lightshot)
+- [Session Buddy](https://wpastra.com/resources/chrome-developer-extensions/#26-session-buddy)
+- [Daily.dev](https://wpastra.com/resources/chrome-developer-extensions/#27-dailydev)
 
-[link](https://chrome.google.com/webstore/detail/pagespeed-insights-with-p/lanlbpjbalfkflkhegagflkgcfklnbnh?hl=en)
+### VS Code Extensions
 
-#### perfect pixel
-
-1. Multiple overlays support
-2. Drag-n-drop file upload support
-3. Inversion and scaling support
-
-[link](https://chrome.google.com/webstore/detail/perfectpixel-classic-by-w/hdilonnhfofnbinbljfnkcloagjpijgd)
-
-#### pagespeed insights
-
-This extension lets you quickly check the PageSpeed score and also provides you with the link of Insights developer console if you want to dig deeper into stats.
-
-[link](https://chrome.google.com/webstore/detail/google-pagespeed-insights/edbkhhpodjkbgenodomhfoldapghpddk?hl=en)
-
-#### AMP validator
-
-The AMP Validator will check the current page to see if it is an AMP page and then run it through the AMP validator and report if the page passes (green) or fails (red) via the extension icon.
-
-[link](https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc?hl=en)
-
-### Web Developer
-
-- view, add, and delete cookies
-- view, edit CSS
-- images anf forms can be handle
-- HTML, CSS validation
-- screen resizing
-
-#### Awesome Screenshot
-
-Capture all or part of any web page as image or video. Add annotations, comments, blur sensitive info, and share with one-click uploads.
-
-[link](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj?hl=en)
-
-#### Tiny png
-
-This is a website that help as to optimize images without losing image clarity in a large amount
-
-[link](https://tinypng.com/)
-
-#### CSSViewer
-
-CSSViewer is a simple CSS properties viewer for Firefox.
-
-How to use : To enable CSSViewer, simply click the toolbar icon and then hover any element on you want to inspect in current page.
-
-![alt text](/img/css-images/cssviewer.png 'CSS Viewer')
-
-#### Stylebot
-
-Change the appearance of websites instantly.
-
-You pick an element and choose any changes you want to make from the editor. You can change the font, color, margins, visibility and a lot more. You can also write CSS manually. You can see the changes on site site as soon as we make change in Stylebot Editor.
-
-![alt text](/img/css-images/stylebot.png 'stylebot')
-
-#### Page Ruler Redux
-
-Get perfect pixel dimensions and positioning to measure elements on any web page.
-
-[link](https://chrome.google.com/webstore/detail/page-ruler-redux/giejhjebcalaheckengmchjekofhhmal?hl=en)
-
-- Create a ruler to get perfect pixel measurements of web elements.
-- Resize the ruler by dragging by mouse or arrow keys.
-
-#### Spectrum
-
-Instantly test your web page with different types of color vision deficiency.
-
-![alt text](/img/css-images/spectrumNormal.png 'Normal')
-
-![alt text](/img/css-images/spectruProtanopia.png 'Protanopia')
-
-![alt text](/img/css-images/spectrumAchromatopsia.png 'Achromatopsia')
+- [Bracket Pair Colorizer](https://www.educative.io/blog/top-vscode-extensions#1)
+- [Better Comments](https://www.educative.io/blog/top-vscode-extensions#2)
+- [Snippets](https://www.educative.io/blog/top-vscode-extensions#3)
+- [CSS Peak](https://www.educative.io/blog/top-vscode-extensions#4)
+- [Prettier](https://www.educative.io/blog/top-vscode-extensions#5)
+- [Relative Path](https://www.educative.io/blog/top-vscode-extensions#6)
+- [Icons](https://www.educative.io/blog/top-vscode-extensions#7)
+- [GitLens](https://www.educative.io/blog/top-vscode-extensions#8)
+- [Import Cost](https://www.educative.io/blog/top-vscode-extensions#9)
+- [Markdown All in One](https://www.educative.io/blog/top-vscode-extensions#10)
+- [Intellisense](https://www.educative.io/blog/top-vscode-extensions#11)
 
 ### Atom editor packages
 
@@ -179,134 +132,6 @@ Emmet support is built right into Visual Studio Code, no extension is required.
 [Reference](https://code.visualstudio.com/docs/editor/emmet)
 
 [Gallery](https://code.visualstudio.com/docs/editor/extension-gallery)
-
-### Sublime Text Plugins
-
-Sublime Text is a sophisticated text editor for code, markup and prose.
-
-#### Package Control
-
-Enables the easy installation, download, and update of packages or plugins into Sublime Text.
-
-Steps:
-
-- ctrl+shift+p (will show the command palette and you can select the package from here)
-- Install Package
-
-- [Install](https://packagecontrol.io/installation)
-- [Reference](https://packagecontrol.io/)
-
-#### Snippets and code style
-
-We can build your own and we have plugins like [Emmet](http://emmet.io/)
-
-#### Emmet
-
-Uses abbreviations that expand to valid HTML tags.
-
-- to build out a navigation you only need to type the following code:
-
-<!-- prettier-ignore-start -->
-```css
-#page>div.logo+ul#navigation>li*5>a{Item $}
-
-```
-<!-- prettier-ignore-end -->
-
-which will expand to:
-
-<!-- prettier-ignore-start -->
-```html
-<div id="page">
-  <div class="logo"></div>
-  <ul id="navigation">
-    <li><a href="">Item 1</a></li>
-    <li><a href="">Item 2</a></li>
-    <li><a href="">Item 3</a></li>
-    <li><a href="">Item 4</a></li>
-    <li><a href="">Item 5</a></li>
-  </ul>
-</div>
-```
-<!-- prettier-ignore-end -->
-
-#### Alignment
-
-Helps to easily align multiple selections, or multi-line selections.
-
-[Reference](https://packagecontrol.io/packages/Alignment)
-
-#### SublimeGit
-
-SublimeGit brings Git into Sublime.
-
-[Reference](https://packagecontrol.io/packages/SublimeGit)
-
-#### GitGutter
-
-Hover on the indicators in the sidebar, to see a diff popup
-
-Features:
-
-- copying the content of the diff state
-- reverting the changes back to the state in Git
-- jumping to next or previous change
-
-[Reference](https://packagecontrol.io/packages/GitGutter)
-
-#### GitOpenChangedFiles
-
-Open files changed in your current branch
-
-Simply install and run `cmd + option + o` on a Mac, or `ctrl + shift + o` on Windows
-
-### Linters and syntax highlighting
-
-#### SublimeLinter
-
-[Reference](https://packagecontrol.io/packages/SublimeLinter)
-
-#### ChangeQuotes
-
-ChangeQuotes “converts single and double quotes, and and re-escapes quotes within the string,” according to their docs. Once installed, whenever you want to change quotes, make sure your cursor is inside the quoted text. Open the Command Palette to run ChangeQuotes—there is no need to select the text to change quotes.
-
-[Reference](https://packagecontrol.io/packages/ChangeQuotes)
-
-#### SASS
-
-[Reference](https://packagecontrol.io/packages/Sass)
-
-#### Babel
-
-For ES6 JavaScript, with React JSX extensions.
-
-[Reference](https://packagecontrol.io/packages/Babel)
-
-#### SideBarEnhancements
-
-Operations on Sidebar of Files and Folders for Sublime Text.
-
-[Reference](https://packagecontrol.io/packages/SideBarEnhancements)
-
-#### Maybs Quit
-
-Enables a quick panel to confirm quitting Sublime Text.
-
-[Reference](https://packagecontrol.io/packages/Maybs%20Quit)
-
-#### AutoFileName
-
-Completes filenames automatically.
-
-[Reference](https://packagecontrol.io/packages/AutoFileName)
-
-#### View In Browser
-
-Shortcuts - `ctrl+ alt + v`
-
-[Reference](https://www.shopify.in/partners/blog/sublime-text-plugins-2018)
-
----
 
 ### Libraries & Frameworks
 
