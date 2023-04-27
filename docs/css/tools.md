@@ -10,128 +10,34 @@ List of tools, libraries, browser extensions, editor packages.
 
 ### Chrome Extensions
 
-- [WhatFont](https://wpastra.com/resources/chrome-developer-extensions/#2-whatfont) - Identify fonts used on web pages
-- [ColorPick Eyedropper](https://wpastra.com/resources/chrome-developer-extensions/#4-colorpick-eyedropper) - identify any colour on any web page
-- [Window Resizer](https://wpastra.com/resources/chrome-developer-extensions/#5-window-resizer) - will resize any screen you’re working on to a range of popular screen sizes.
-- [BrowserStack](https://wpastra.com/resources/chrome-developer-extensions/#6-browserstack) - Rather than different screen sizes, this extension lets you test with different browsers.
-- [CSS Viewer](https://wpastra.com/resources/chrome-developer-extensions/#7-css-viewer) - hows you the CSS properties of a given page wherever you hover your mouse.
-- [Lorem Ipsum Generator](https://wpastra.com/resources/chrome-developer-extensions/#8-lorem-ipsum-generator) - It generates filler text for demo websites
-- [Corporate Ipsum](https://wpastra.com/resources/chrome-developer-extensions/#9-corporate-ipsum) - This Chrome developer extension generates lorem ipsum but with a corporate twist.
-- [Ghostery](https://wpastra.com/resources/chrome-developer-extensions/#10-ghostery) - privacy extension designed to block intrusive ads, stop tracking, prevent data collection and block all those page elements that slow you down.
-
-- [HTML Validator](https://wpastra.com/resources/chrome-developer-extensions/#13-html-validator)
-
-- [React Developer Tools](https://wpastra.com/resources/chrome-developer-extensions/#14-react-developer-tools)
-- [JSON Viewer](https://wpastra.com/resources/chrome-developer-extensions/#15-json-viewer)
-- [ColorZilla](https://wpastra.com/resources/chrome-developer-extensions/#16-colorzilla)
-- [Dimensions](https://wpastra.com/resources/chrome-developer-extensions/#17-dimensions)
-- [Page Ruler](https://wpastra.com/resources/chrome-developer-extensions/#18-page-ruler)
-- [UX Check](https://wpastra.com/resources/chrome-developer-extensions/#19-ux-check)
-- [Check My Links](https://wpastra.com/resources/chrome-developer-extensions/#20-check-my-links)
-- [Web Developer Checklist](https://wpastra.com/resources/chrome-developer-extensions/#21-web-developer-checklist)
-- [Checkbot](https://wpastra.com/resources/chrome-developer-extensions/#22-checkbot)
-- [Web Developer](https://wpastra.com/resources/chrome-developer-extensions/#23-web-developer)
-- [Lightshot](https://wpastra.com/resources/chrome-developer-extensions/#25-lightshot)
-- [Session Buddy](https://wpastra.com/resources/chrome-developer-extensions/#26-session-buddy)
-- [Daily.dev](https://wpastra.com/resources/chrome-developer-extensions/#27-dailydev)
+- [WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en) - Identify fonts used on web pages
+- [ColorPick Eyedropper](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en) - identify any colour on any web page
+- [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en) - will resize any screen you’re working on to a range of popular screen sizes.
+- [BrowserStack](https://chrome.google.com/webstore/detail/browserstack/nkihdmlheodkdfojglpcjjmioefjahjb) - Rather than different screen sizes, this extension lets you test with different browsers.
+- [CSS Viewer](https://chrome.google.com/webstore/detail/css-viewer-for-google-chr/eedfldkdghfkhdcanjnfiklpeehbfoag) - hows you the [CSS properties](https://wpastra.com/docs/enable-css-file-generation/) of a given page wherever you hover your mouse.
+- [Lorem Ipsum Generator](https://chrome.google.com/webstore/detail/yet-another-lorem-ipsum-g/fafiooicgpgnicbbkfgimcofbhpcledk) - It generates filler text for demo websites
+- [Ghostery](https://chrome.google.com/webstore/detail/ghostery-%E2%80%93-privacy-ad-blo/mlomiejdfkolichcflejclcbmpeaniij) - privacy extension designed to block intrusive ads, stop tracking, prevent data collection and block all those page elements that slow you down.
+- [HTML Validator](https://chrome.google.com/webstore/detail/html-validator/mpbelhhnfhfjnaehkcnnaknldmnocglk) - HTML Validator is a quick tool for checking your HTML within a browser. There are hundreds of HTML tools out there and you’ll likely have a bunch of them already. But HTML Validator is genuinely useful for quickly validating markup within the browser.
+- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) - React Developer Tools are specifically for the open source React JavaScript library. If you work with React, this extension helps you inspect the library as required.
+- [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh) - JSON Viewer is an alternative to JSONView and helps manage JSON data into a quickly recognizable hierarchy view in a browser window. Working with raw JSON data is fine when you have the time, but using this addon makes the code easier to quickly absorb and use
+- [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp) - ColorZilla is a superb Chrome developer extension for colour selection. It includes an eyedrop colour selector, a colour history tool, a CSS gradient analyzer and a page analyzer that assesses colours on a web page.
+- [Dimensions](https://chrome.google.com/webstore/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj) - Dimensions is a dynamic measure that uses your mouse. It’s a very useful Chrome developer extension if you want to measure spacing, dimensions, gaps between page elements and anything else you see on the page.
+- [Page Ruler](https://chrome.google.com/webstore/detail/page-ruler/jcbmcnpepaddcedmjdcmhbekjhbfnlff) - Page Ruler is similar to Dimensions in that it’s a dynamic measurement extension. While Dimensions can measure the height and width of elements, it is more useful for measuring between them. Page Rule measures those elements very accurately.
+- [Check My Links](https://chrome.google.com/webstore/detail/website-broken-link-and-4/kkjfobdnekhdpmgomkpeibhlnmcjgian) - Check My Links does exactly what it says on the tin. It’s a super-simple way to check for broken links. It can also check for valid links and redirected links as well as broken ones. While technically a dev tool, this Chrome developer extension could be useful for SEO and other specialities too.
+- [Lightshot](https://chrome.google.com/webstore/detail/lightshot-screenshot-tool/mbniclmhobmnbdlbpiphghaielnnpgdp) -Lightshot is another of those Chrome developer extensions that could be useful for all kinds of people. While devs will likely use it a lot, UX testers. user testers, instructors, graphic designers and all kinds of users will make great screenshots with this tool.
 
 ### VS Code Extensions
 
-- [Bracket Pair Colorizer](https://www.educative.io/blog/top-vscode-extensions#1)
-- [Better Comments](https://www.educative.io/blog/top-vscode-extensions#2)
-- [Snippets](https://www.educative.io/blog/top-vscode-extensions#3)
-- [CSS Peak](https://www.educative.io/blog/top-vscode-extensions#4)
-- [Prettier](https://www.educative.io/blog/top-vscode-extensions#5)
-- [Relative Path](https://www.educative.io/blog/top-vscode-extensions#6)
-- [Icons](https://www.educative.io/blog/top-vscode-extensions#7)
-- [GitLens](https://www.educative.io/blog/top-vscode-extensions#8)
-- [Import Cost](https://www.educative.io/blog/top-vscode-extensions#9)
-- [Markdown All in One](https://www.educative.io/blog/top-vscode-extensions#10)
-- [Intellisense](https://www.educative.io/blog/top-vscode-extensions#11)
+- [Bracket Pair Colorizer](https://www.educative.io/blog/top-vscode-extensions#1) - The Bracket Pair Colorizer extension is a good example of the power of VS Code's extensibility and makes heavy use of the Decoration API to colorize brackets.
+- [Better Comments](https://www.educative.io/blog/top-vscode-extensions#2) - The Better Comments extension will help you create more human-friendly comments in your code.
+- [Snippets](https://www.educative.io/blog/top-vscode-extensions#3) - VS Code has built-in snippets for a number of languages such as: JavaScript, TypeScript, Markdown, and PHP.
+- [CSS Peak](https://www.educative.io/blog/top-vscode-extensions#4) - Allow peeking to css ID and class strings as definitions from html files to respective CSS. Allows peek and goto definition.
+- [Prettier](https://www.educative.io/blog/top-vscode-extensions#5) - is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
 
-### Atom editor packages
-
-#### Linter
-
-Provides a top-level API to its consumer so that they can visualize errors and other types of messages with ease.
-
-<!-- prettier-ignore-start -->
-```bash
-$ apm install linter
-
-```
-<!-- prettier-ignore-end -->
-
-[Reference](https://atom.io/packages/linter)
-
-#### emmet
-
-Emmet expands abbreviations by Tab key only for HTML, CSS, Sass/SCSS and LESS syntaxes.
-
-We can install emmet as normal atom package or through manual installation
-
-<!-- prettier-ignore-start -->
-```bash
-
-cd ~/.atom/packages
-git clone https://github.com/emmetio/emmet-atom
-cd emmet-atom
-npm install
-
-```
-<!-- prettier-ignore-end -->
-
-[Reference](https://atom.io/packages/emmet)
-
-#### color-picker
-
-Features:
-
-- multi-cursor support
-- context detection depending on cursor position
-- simple UI depending on colorjoe
-
-[Reference](https://atom.io/packages/color-picker)
-
-#### highlight-selected
-
-Highlight occurrences of a selection within the open editor.
-
-[Reference](https://atom.io/packages/highlight-selected)
-
-#### git-plus
-
-make commits and other git things without the terminal
-
-[Reference](https://atom.io/packages/git-plus)
-
-#### atom-beautify
-
-Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom
-
-[Reference](https://atom.io/packages/atom-beautify)
-
-[Other package List](https://atom.io/packages/list)
-
-### VS Code extensions
-
-You can browse and install extensions from within VS Code. Bring up the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of VS Code or the View: Extensions command (Ctrl+Shift+X).
-
-- List installed extensions - Command Palette (Ctrl+Shift+P) or the More Actions (...)
-
-#### Snippets
-
-Code snippets are templates that make it easier to enter repeating code patterns, such as loops or conditional-statements.
-
-[Reference](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
-
-#### Emmet
-
-Emmet support is built right into Visual Studio Code, no extension is required.
-
-[Reference](https://code.visualstudio.com/docs/editor/emmet)
-
-[Gallery](https://code.visualstudio.com/docs/editor/extension-gallery)
+- [Relative Path](https://www.educative.io/blog/top-vscode-extensions#6) -Get the relative path to any file in your workspace
+- [GitLens](https://www.educative.io/blog/top-vscode-extensions#8) - GitLens supercharges Git inside VS Code and unlocks untapped knowledge within each repository.
+- [Import Cost](https://www.educative.io/blog/top-vscode-extensions#9) - This extension will display inline in the editor the size of the imported package.
+- [Intellisense](https://www.educative.io/blog/top-vscode-extensions#11) - IntelliSense is a code-completion aid that includes a number of features: List Members, Parameter Info, Quick Info, and Complete Word. These features help you to learn more about the code you're using, keep track of the parameters you're typing, and add calls to properties and methods with only a few keystrokes.
 
 ### Libraries & Frameworks
 
@@ -266,4 +172,4 @@ The Code Beautifier is a simple, no frills tool that helps you clean your CSS. P
 
 [Link](http://www.codebeautifier.com/)
 
-<EditedBy name="Mahima" updated="Vijay" date="21/05/2020" />
+<EditedBy name="Priya" updated="Pulari" date="27/04/2023" />
