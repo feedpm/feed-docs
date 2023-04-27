@@ -15,7 +15,13 @@ module.exports = {
       'welcome/style-guide',
       'welcome/mdx',
     ],
-    CSS: ['css/coding-guidelines', 'css/tools', 'css/form-ux', 'css/ui-tips'],
+    CSS: [
+      'css/coding-guidelines',
+      'css/tools',
+      'css/microinteraction',
+      'css/form-ux',
+      'css/ui-tips',
+    ],
     JS: [
       'js/intro',
       'js/coding-guidelines',
