@@ -8,305 +8,36 @@ import EditedBy from '../../src/components/EditedBy'
 
 List of tools, libraries, browser extensions, editor packages.
 
-### Browser extensions
-
-#### pagespeed
-
-Analyze the performance of your webpages and get specific suggestions on how to optimize them.
-
-1. image compression, optimization, and scaling
-2. minify html,css, and js
-3. browser caching
-4. etc
-
-[link](https://chrome.google.com/webstore/detail/pagespeed-insights-with-p/lanlbpjbalfkflkhegagflkgcfklnbnh?hl=en)
-
-#### perfect pixel
-
-1. Multiple overlays support
-2. Drag-n-drop file upload support
-3. Inversion and scaling support
-
-[link](https://chrome.google.com/webstore/detail/perfectpixel-classic-by-w/hdilonnhfofnbinbljfnkcloagjpijgd)
-
-#### pagespeed insights
-
-This extension lets you quickly check the PageSpeed score and also provides you with the link of Insights developer console if you want to dig deeper into stats.
-
-[link](https://chrome.google.com/webstore/detail/google-pagespeed-insights/edbkhhpodjkbgenodomhfoldapghpddk?hl=en)
-
-#### AMP validator
-
-The AMP Validator will check the current page to see if it is an AMP page and then run it through the AMP validator and report if the page passes (green) or fails (red) via the extension icon.
-
-[link](https://chrome.google.com/webstore/detail/amp-validator/nmoffdblmcmgeicmolmhobpoocbbmknc?hl=en)
-
-### Web Developer
-
-- view, add, and delete cookies
-- view, edit CSS
-- images anf forms can be handle
-- HTML, CSS validation
-- screen resizing
-
-#### Awesome Screenshot
-
-Capture all or part of any web page as image or video. Add annotations, comments, blur sensitive info, and share with one-click uploads.
-
-[link](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj?hl=en)
-
-#### Tiny png
-
-This is a website that help as to optimize images without losing image clarity in a large amount
-
-[link](https://tinypng.com/)
-
-#### CSSViewer
-
-CSSViewer is a simple CSS properties viewer for Firefox.
-
-How to use : To enable CSSViewer, simply click the toolbar icon and then hover any element on you want to inspect in current page.
-
-![alt text](/img/css-images/cssviewer.png 'CSS Viewer')
-
-#### Stylebot
-
-Change the appearance of websites instantly.
-
-You pick an element and choose any changes you want to make from the editor. You can change the font, color, margins, visibility and a lot more. You can also write CSS manually. You can see the changes on site site as soon as we make change in Stylebot Editor.
-
-![alt text](/img/css-images/stylebot.png 'stylebot')
-
-#### Page Ruler Redux
-
-Get perfect pixel dimensions and positioning to measure elements on any web page.
-
-[link](https://chrome.google.com/webstore/detail/page-ruler-redux/giejhjebcalaheckengmchjekofhhmal?hl=en)
-
-- Create a ruler to get perfect pixel measurements of web elements.
-- Resize the ruler by dragging by mouse or arrow keys.
-
-#### Spectrum
-
-Instantly test your web page with different types of color vision deficiency.
-
-![alt text](/img/css-images/spectrumNormal.png 'Normal')
-
-![alt text](/img/css-images/spectruProtanopia.png 'Protanopia')
-
-![alt text](/img/css-images/spectrumAchromatopsia.png 'Achromatopsia')
-
-### Atom editor packages
-
-#### Linter
-
-Provides a top-level API to its consumer so that they can visualize errors and other types of messages with ease.
-
-<!-- prettier-ignore-start -->
-```bash
-$ apm install linter
-
-```
-<!-- prettier-ignore-end -->
-
-[Reference](https://atom.io/packages/linter)
-
-#### emmet
-
-Emmet expands abbreviations by Tab key only for HTML, CSS, Sass/SCSS and LESS syntaxes.
-
-We can install emmet as normal atom package or through manual installation
-
-<!-- prettier-ignore-start -->
-```bash
-
-cd ~/.atom/packages
-git clone https://github.com/emmetio/emmet-atom
-cd emmet-atom
-npm install
-
-```
-<!-- prettier-ignore-end -->
-
-[Reference](https://atom.io/packages/emmet)
-
-#### color-picker
-
-Features:
-
-- multi-cursor support
-- context detection depending on cursor position
-- simple UI depending on colorjoe
-
-[Reference](https://atom.io/packages/color-picker)
-
-#### highlight-selected
-
-Highlight occurrences of a selection within the open editor.
-
-[Reference](https://atom.io/packages/highlight-selected)
-
-#### git-plus
-
-make commits and other git things without the terminal
-
-[Reference](https://atom.io/packages/git-plus)
-
-#### atom-beautify
-
-Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom
-
-[Reference](https://atom.io/packages/atom-beautify)
-
-[Other package List](https://atom.io/packages/list)
-
-### VS Code extensions
-
-You can browse and install extensions from within VS Code. Bring up the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of VS Code or the View: Extensions command (Ctrl+Shift+X).
-
-- List installed extensions - Command Palette (Ctrl+Shift+P) or the More Actions (...)
-
-#### Snippets
-
-Code snippets are templates that make it easier to enter repeating code patterns, such as loops or conditional-statements.
-
-[Reference](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
-
-#### Emmet
-
-Emmet support is built right into Visual Studio Code, no extension is required.
-
-[Reference](https://code.visualstudio.com/docs/editor/emmet)
-
-[Gallery](https://code.visualstudio.com/docs/editor/extension-gallery)
-
-### Sublime Text Plugins
-
-Sublime Text is a sophisticated text editor for code, markup and prose.
-
-#### Package Control
-
-Enables the easy installation, download, and update of packages or plugins into Sublime Text.
-
-Steps:
-
-- ctrl+shift+p (will show the command palette and you can select the package from here)
-- Install Package
-
-- [Install](https://packagecontrol.io/installation)
-- [Reference](https://packagecontrol.io/)
-
-#### Snippets and code style
-
-We can build your own and we have plugins like [Emmet](http://emmet.io/)
-
-#### Emmet
-
-Uses abbreviations that expand to valid HTML tags.
-
-- to build out a navigation you only need to type the following code:
-
-<!-- prettier-ignore-start -->
-```css
-#page>div.logo+ul#navigation>li*5>a{Item $}
-
-```
-<!-- prettier-ignore-end -->
-
-which will expand to:
-
-<!-- prettier-ignore-start -->
-```html
-<div id="page">
-  <div class="logo"></div>
-  <ul id="navigation">
-    <li><a href="">Item 1</a></li>
-    <li><a href="">Item 2</a></li>
-    <li><a href="">Item 3</a></li>
-    <li><a href="">Item 4</a></li>
-    <li><a href="">Item 5</a></li>
-  </ul>
-</div>
-```
-<!-- prettier-ignore-end -->
-
-#### Alignment
-
-Helps to easily align multiple selections, or multi-line selections.
-
-[Reference](https://packagecontrol.io/packages/Alignment)
-
-#### SublimeGit
-
-SublimeGit brings Git into Sublime.
-
-[Reference](https://packagecontrol.io/packages/SublimeGit)
-
-#### GitGutter
-
-Hover on the indicators in the sidebar, to see a diff popup
-
-Features:
-
-- copying the content of the diff state
-- reverting the changes back to the state in Git
-- jumping to next or previous change
-
-[Reference](https://packagecontrol.io/packages/GitGutter)
-
-#### GitOpenChangedFiles
-
-Open files changed in your current branch
-
-Simply install and run `cmd + option + o` on a Mac, or `ctrl + shift + o` on Windows
-
-### Linters and syntax highlighting
-
-#### SublimeLinter
-
-[Reference](https://packagecontrol.io/packages/SublimeLinter)
-
-#### ChangeQuotes
-
-ChangeQuotes “converts single and double quotes, and and re-escapes quotes within the string,” according to their docs. Once installed, whenever you want to change quotes, make sure your cursor is inside the quoted text. Open the Command Palette to run ChangeQuotes—there is no need to select the text to change quotes.
-
-[Reference](https://packagecontrol.io/packages/ChangeQuotes)
-
-#### SASS
-
-[Reference](https://packagecontrol.io/packages/Sass)
-
-#### Babel
-
-For ES6 JavaScript, with React JSX extensions.
-
-[Reference](https://packagecontrol.io/packages/Babel)
-
-#### SideBarEnhancements
-
-Operations on Sidebar of Files and Folders for Sublime Text.
-
-[Reference](https://packagecontrol.io/packages/SideBarEnhancements)
-
-#### Maybs Quit
-
-Enables a quick panel to confirm quitting Sublime Text.
-
-[Reference](https://packagecontrol.io/packages/Maybs%20Quit)
-
-#### AutoFileName
-
-Completes filenames automatically.
-
-[Reference](https://packagecontrol.io/packages/AutoFileName)
-
-#### View In Browser
-
-Shortcuts - `ctrl+ alt + v`
-
-[Reference](https://www.shopify.in/partners/blog/sublime-text-plugins-2018)
-
----
+### Chrome Extensions
+
+- [WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en) - Identify fonts used on web pages
+- [ColorPick Eyedropper](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en) - identify any colour on any web page
+- [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en) - will resize any screen you’re working on to a range of popular screen sizes.
+- [BrowserStack](https://chrome.google.com/webstore/detail/browserstack/nkihdmlheodkdfojglpcjjmioefjahjb) - Rather than different screen sizes, this extension lets you test with different browsers.
+- [CSS Viewer](https://chrome.google.com/webstore/detail/css-viewer-for-google-chr/eedfldkdghfkhdcanjnfiklpeehbfoag) - hows you the [CSS properties](https://wpastra.com/docs/enable-css-file-generation/) of a given page wherever you hover your mouse.
+- [Lorem Ipsum Generator](https://chrome.google.com/webstore/detail/yet-another-lorem-ipsum-g/fafiooicgpgnicbbkfgimcofbhpcledk) - It generates filler text for demo websites
+- [Ghostery](https://chrome.google.com/webstore/detail/ghostery-%E2%80%93-privacy-ad-blo/mlomiejdfkolichcflejclcbmpeaniij) - privacy extension designed to block intrusive ads, stop tracking, prevent data collection and block all those page elements that slow you down.
+- [HTML Validator](https://chrome.google.com/webstore/detail/html-validator/mpbelhhnfhfjnaehkcnnaknldmnocglk) - HTML Validator is a quick tool for checking your HTML within a browser. There are hundreds of HTML tools out there and you’ll likely have a bunch of them already. But HTML Validator is genuinely useful for quickly validating markup within the browser.
+- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) - React Developer Tools are specifically for the open source React JavaScript library. If you work with React, this extension helps you inspect the library as required.
+- [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh) - JSON Viewer is an alternative to JSONView and helps manage JSON data into a quickly recognizable hierarchy view in a browser window. Working with raw JSON data is fine when you have the time, but using this addon makes the code easier to quickly absorb and use
+- [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp) - ColorZilla is a superb Chrome developer extension for colour selection. It includes an eyedrop colour selector, a colour history tool, a CSS gradient analyzer and a page analyzer that assesses colours on a web page.
+- [Dimensions](https://chrome.google.com/webstore/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj) - Dimensions is a dynamic measure that uses your mouse. It’s a very useful Chrome developer extension if you want to measure spacing, dimensions, gaps between page elements and anything else you see on the page.
+- [Page Ruler](https://chrome.google.com/webstore/detail/page-ruler/jcbmcnpepaddcedmjdcmhbekjhbfnlff) - Page Ruler is similar to Dimensions in that it’s a dynamic measurement extension. While Dimensions can measure the height and width of elements, it is more useful for measuring between them. Page Rule measures those elements very accurately.
+- [Check My Links](https://chrome.google.com/webstore/detail/website-broken-link-and-4/kkjfobdnekhdpmgomkpeibhlnmcjgian) - Check My Links does exactly what it says on the tin. It’s a super-simple way to check for broken links. It can also check for valid links and redirected links as well as broken ones. While technically a dev tool, this Chrome developer extension could be useful for SEO and other specialities too.
+- [Lightshot](https://chrome.google.com/webstore/detail/lightshot-screenshot-tool/mbniclmhobmnbdlbpiphghaielnnpgdp) -Lightshot is another of those Chrome developer extensions that could be useful for all kinds of people. While devs will likely use it a lot, UX testers. user testers, instructors, graphic designers and all kinds of users will make great screenshots with this tool.
+
+### VS Code Extensions
+
+- [Bracket Pair Colorizer](https://www.educative.io/blog/top-vscode-extensions#1) - The Bracket Pair Colorizer extension is a good example of the power of VS Code's extensibility and makes heavy use of the Decoration API to colorize brackets.
+- [Better Comments](https://www.educative.io/blog/top-vscode-extensions#2) - The Better Comments extension will help you create more human-friendly comments in your code.
+- [Snippets](https://www.educative.io/blog/top-vscode-extensions#3) - VS Code has built-in snippets for a number of languages such as: JavaScript, TypeScript, Markdown, and PHP.
+- [CSS Peak](https://www.educative.io/blog/top-vscode-extensions#4) - Allow peeking to css ID and class strings as definitions from html files to respective CSS. Allows peek and goto definition.
+- [Prettier](https://www.educative.io/blog/top-vscode-extensions#5) - is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
+
+- [Relative Path](https://www.educative.io/blog/top-vscode-extensions#6) -Get the relative path to any file in your workspace
+- [GitLens](https://www.educative.io/blog/top-vscode-extensions#8) - GitLens supercharges Git inside VS Code and unlocks untapped knowledge within each repository.
+- [Import Cost](https://www.educative.io/blog/top-vscode-extensions#9) - This extension will display inline in the editor the size of the imported package.
+- [Intellisense](https://www.educative.io/blog/top-vscode-extensions#11) - IntelliSense is a code-completion aid that includes a number of features: List Members, Parameter Info, Quick Info, and Complete Word. These features help you to learn more about the code you're using, keep track of the parameters you're typing, and add calls to properties and methods with only a few keystrokes.
 
 ### Libraries & Frameworks
 
@@ -441,4 +172,4 @@ The Code Beautifier is a simple, no frills tool that helps you clean your CSS. P
 
 [Link](http://www.codebeautifier.com/)
 
-<EditedBy name="Mahima" updated="Vijay" date="21/05/2020" />
+<EditedBy name="Priya" updated="Pulari" date="27/04/2023" />

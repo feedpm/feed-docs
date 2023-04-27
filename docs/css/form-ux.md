@@ -47,6 +47,18 @@ Show all selection options if under 6
 
 [![Show all selection options if under 6](/img/all-options.jpeg 'Show all selection options if under 6')](/img/all-options.jpeg)
 
+### Highlight Limitations
+
+Most fields have some kind of limitation. Character limit, number/date range, phone number, etc. Make users aware of limitations beforehand to prevent their frustration.
+
+[![Highlight Limitations](/img/highlight-limitations.png 'Highlight Limitations')](/img/highlight-limitations.png)
+
+### Descriptive Error Messages
+
+Always describe the error with in-depth details and help people overcome them.
+
+[![Descriptive Error Messages](/img/descriptive-error-messages.png 'Descriptive Error Messages')](/img/descriptive-error-messages.png)
+
 ### Inline validation
 
 Use inline validation after the user fills out the field (unless it helps them while in the process)
@@ -101,4 +113,4 @@ Avoid writing when possible
 
 [![Avoid writing when possible](/img/price-range.png 'Avoid writing when possible')](/img/price-range.png)
 
-<EditedBy name="Priya" updated="Vijay Dev" date="13/05/2020" />
+<EditedBy name="Priya, Ann" updated="Ann" date="24/04/2023" />
