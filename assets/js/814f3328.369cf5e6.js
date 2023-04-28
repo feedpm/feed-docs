@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfeed_docs=self.webpackChunkfeed_docs||[]).push([[2535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Hello","permalink":"/feed-docs/blog/hello-world"}]}')}}]);
