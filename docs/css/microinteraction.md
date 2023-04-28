@@ -6,7 +6,8 @@ sidebar_label: Microinteraction
 
 import EditedBy from '../../src/components/EditedBy'
 
-According to Dan Saffer, author of the highly-respected book: Microinteractions: Designing with Details, a microinteraction is: 
+According to Dan Saffer, author of the highly-respected book: Microinteractions: Designing with Details, a microinteraction is:
+
 > “A contained product moment that revolves around a single use case or task.” He uses the examples of ‘liking a post’ or ‘setting an alarm’ as common microinteractions that most of us do every day. Saffer also explains in his book that microinteractions can be broken down into a 4 part structure:
 
 [![Image](/img/microinteraction.png 'UI Tips')](/img/microinteraction.png)

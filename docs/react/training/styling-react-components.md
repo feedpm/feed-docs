@@ -35,7 +35,7 @@ const spanStyles = {
   borderColor: '#00f',
 };
 
-const Button = props => (
+const Button = (props) => (
   <button
     style={{
       color: '#fff',
@@ -136,7 +136,7 @@ const Button = styled.button`
   margin: 0 1em;
   padding: 0.25em 1em;
   transition: 0.5s all ease-out;
-  ${props =>
+  ${(props) =>
     props.primary &&
     css`
       background-color: white;

@@ -1,0 +1,11 @@
+{
+  "extends": ["plugin:@docusaurus/recommended"],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": "latest",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "rules": {}
+  }
+}

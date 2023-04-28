@@ -106,7 +106,7 @@ const element = <Greet username="Bruce" />;
 It should be noted that when working with components that have multiple children (see below with h1 and p), each child component gets its props from the parent. When using a function component, props are all that gets passed, they’re available by adding props as the function argument:
 
 ```jsx
-const Test = props => {
+const Test = (props) => {
   return (
     <div>
       <h1>{props.title}</h1>

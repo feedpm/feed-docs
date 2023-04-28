@@ -83,7 +83,7 @@ ReactDOM.render(<Button label="Submit" />, app);
 **Props** are parameters that are passed to components of a React application. Sample :
 
 ```jsx
-const Greetings = props => (
+const Greetings = (props) => (
   <div>
     Hello {props.firstName} {props.lastName} !
   </div>
@@ -110,7 +110,7 @@ class HelloForm extends React.Component {
     firstName: '',
   };
 
-  onNameChange = event =>
+  onNameChange = (event) =>
     this.setState({
       firstName: event.target.value,
     });

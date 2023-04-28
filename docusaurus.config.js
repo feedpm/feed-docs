@@ -7,6 +7,8 @@
  * @format
  */
 
+/* eslint-disable */
+
 module.exports = {
   title: 'FEED Docs',
   tagline: 'QBurst FEED team documentations',
@@ -88,7 +90,6 @@ module.exports = {
       // Please do not remove the credits, help to publicize Docusaurus :)
       copyright: `Copyright © ${new Date().getFullYear()} QBurst. Maintained by FEED team. Built with Docusaurus.`,
     },
-    sidebarCollapsible: true,
   },
   presets: [
     [
@@ -97,6 +98,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/feedpm/feed-docs/tree/main',
+          sidebarCollapsible: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

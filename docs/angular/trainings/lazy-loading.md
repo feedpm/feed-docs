@@ -47,7 +47,7 @@ const routes: Routes = [
   {
     path: 'customers-list',
     loadChildren: () =>
-      import('./customers/customers.module').then(m => m.CustomersModule),
+      import('./customers/customers.module').then((m) => m.CustomersModule),
   },
 ];
 ```
@@ -67,12 +67,12 @@ const routes: Routes = [
   {
     path: 'customers-list',
     loadChildren: () =>
-      import('./customers/customers.module').then(m => m.CustomersModule),
+      import('./customers/customers.module').then((m) => m.CustomersModule),
   },
   {
     path: 'orders',
     loadChildren: () =>
-      import('./orders/orders.module').then(m => m.OrdersModule),
+      import('./orders/orders.module').then((m) => m.OrdersModule),
   },
 ];
 ```

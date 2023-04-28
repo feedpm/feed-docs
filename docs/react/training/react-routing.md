@@ -163,7 +163,7 @@ import {Route, Redirect} from 'react-router-dom';
 const PrivateRoute = ({component: Component, isAuthenticated, ...rest}) => (
   <Route
     {...rest}
-    render={props =>
+    render={(props) =>
       isAuthenticated ? (
         <Component {...props} />
       ) : (

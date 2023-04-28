@@ -1,12 +1,10 @@
-/* eslint-disable header/header */
-// import sidebars from '../sidebars';
 const sidebars = require('../sidebars');
 
 const test = (source, check) => {
-  const verify = name =>
+  const verify = (name) =>
     check instanceof RegExp ? check.test(name) : name.indexOf(check) === 0;
 
-  return source.every(name =>
+  return source.every((name) =>
     typeof name === 'string' ? verify(name) : name.items.every(verify),
   );
 };
@@ -15,7 +13,7 @@ describe('Sidebars', () => {
   it('All docs must follow kebab case with at least 1 "/"', () => {
     const regex = /^[a-z]+(-[a-z0-9]+)*?(\/[a-z0-9]+)+(-[a-z0-9]+)*?$/;
     const source = Object.values(sidebars.docs);
-    const result = source.every(item => test(item, regex));
+    const result = source.every((item) => test(item, regex));
 
     expect(source).toBeDefined();
     expect(result).toBe(true);

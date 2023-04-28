@@ -8,34 +8,26 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "ci": "yarn lint && yarn prettier:diff",
+    "ci": "yarn lint && yarn prettier",
     "lint": "eslint --cache \"**/*.js\"",
-    "prettier": "prettier --config .prettierrc --write \"**/*.{js,md}\"",
-    "prettier:diff": "prettier --config .prettierrc --list-different \"**/*.{js,md}\"",
+    "prettier": "prettier --config .prettierrc.json --write \"**/*.{js,md}\"",
     "test": "jest"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.70",
-    "@docusaurus/preset-classic": "2.0.0-alpha.70",
-    "@mdx-js/react": "^1.6.21",
-    "clsx": "^1.1.1",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "@docusaurus/core": "2.4.0",
+    "@docusaurus/preset-classic": "2.4.0",
+    "classnames": "^2.3.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.7.1",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-header": "^3.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.16.0",
-    "eslint-plugin-react-hooks": "^2.3.0",
+    "@docusaurus/eslint-plugin": "^2.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.39.0",
     "husky": "^4.2.3",
     "jest": "^25.1.0",
     "lint-staged": "^10.0.8",
-    "prettier": "^1.19.1"
+    "prettier": "^2.8.8"
   },
   "browserslist": {
     "production": [

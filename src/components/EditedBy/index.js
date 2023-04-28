@@ -1,4 +1,6 @@
-/* eslint-disable header/header */
+/**
+ * Use this component to add edited by
+ */
 import React from 'react';
 import PropTypes from 'prop-types';
 

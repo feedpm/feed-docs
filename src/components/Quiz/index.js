@@ -1,5 +1,6 @@
-/* eslint-disable no-nested-ternary */
-/* eslint-disable header/header */
+/**
+ * Use this component to create quiz
+ */
 import React, {useState} from 'react';
 
 import styles from './styles.module.css';
@@ -11,15 +12,15 @@ export default ({question, name, answer, options}) => {
   const [disabled, setdisabled] = useState(false);
   const [choosen, setChoosen] = useState();
 
-  const onChange = e => {
+  const onChange = (e) => {
     setChoosen(e.target.value);
     setdisabled(true);
   };
 
-  const noborder = index =>
+  const noborder = (index) =>
     options.length % 2 === 0 && index + 2 === options.length;
 
-  const getIcon = option => {
+  const getIcon = (option) => {
     if (disabled && option === answer) return <CheckIcon />;
 
     if (disabled && option === choosen) return <CancelIcon />;
