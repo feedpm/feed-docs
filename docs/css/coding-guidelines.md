@@ -104,9 +104,9 @@ h3 {
 Where quotes can or should be included, use them, and use double quotes. For example:
 
 ```css
-[data-vegetable='liquid'] {
+[data-vegetable="liquid"] {
   background-color: goldenrod;
-  background-image: url('../../media/examples/lizard.png');
+  background-image: url("../../media/examples/lizard.png");
 }
 ```
 
@@ -168,9 +168,7 @@ h3 {
 
 ```css
 /* Bad Approach */
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-family: sans-serif;
   text-align: center;
 }
@@ -212,11 +210,7 @@ p {
 
 ```css
 /* Bad Approach */
-p {
-  color: white;
-  background-color: black;
-  padding: 1rem;
-}
+p { color: white; background-color: black; padding: 1rem; }
 ```
 
 ---
