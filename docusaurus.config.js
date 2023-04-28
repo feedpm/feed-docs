@@ -15,8 +15,10 @@ module.exports = {
   url: 'https://feedpm.github.io',
   baseUrl: '/feed-docs/',
   favicon: 'img/favicon.ico',
-  organizationName: 'qburst',
+  organizationName: 'QBurst',
   projectName: 'feed-docs',
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
   themeConfig: {
     navbar: {
       title: 'FEED Docs',
