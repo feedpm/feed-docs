@@ -74,7 +74,7 @@ ReactDOM.render(element, document.getElementById('root'));
 Components in React can be a JavaScript class or function that optionally accepts inputs i.e. properties(props) and returns a React element that describes how a section of the UI should appear.
 
 ```jsx
-const Greeting = props => <h1>Hello {props.name}!</h1>;
+const Greeting = (props) => <h1>Hello {props.name}!</h1>;
 ```
 
 The above example shows a functional component that takes props and returns a React Element for rendering. Functional Components are pure components and stateless.

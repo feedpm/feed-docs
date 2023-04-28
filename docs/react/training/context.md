@@ -17,11 +17,11 @@ const App = () => {
   return <ParentComponent theme="light" />;
 };
 
-const ParentComponent = props => <Child theme={props.theme} />;
+const ParentComponent = (props) => <Child theme={props.theme} />;
 
-const Child = props => <Grandchild theme={props.theme} />;
+const Child = (props) => <Grandchild theme={props.theme} />;
 
-const Grandchild = props => <p>Theme: {props.theme}</p>;
+const Grandchild = (props) => <p>Theme: {props.theme}</p>;
 ```
 
 In the example above, we specified the application theme using a props in the ParentComponent called theme. We had to pass that props to all components down the component tree to get it where it is needed which is the GrandChild component. The ChildComponent had nothing to do with the theme props but was just used as an intermediary.
@@ -106,7 +106,7 @@ class HomePage extends Component {
   render() {
     return (
       <UserConsumer>
-        {props => {
+        {(props) => {
           return <div>{props.name}</div>;
         }}
       </UserConsumer>
