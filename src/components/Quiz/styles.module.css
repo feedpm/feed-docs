@@ -6,6 +6,7 @@
   margin: 40px 0;
   color: var(--color);
   transition: border-color 0.2s ease, color 0.2s ease;
+  position: relative;
 }
 
 .form.success {
@@ -24,44 +25,44 @@
   border-bottom: 1px solid var(--border-color);
 }
 
-.options {
+.choices {
   display: flex;
   flex-flow: column;
 }
 
 @media (min-width: 786px) {
-  .options {
+  .choices {
     flex-flow: row;
     flex-wrap: wrap;
   }
 }
 
-.option {
+.choice {
   flex: 0 50%;
   padding: 20px;
   position: relative;
 }
 
-.option:not(:last-child) {
+.choice:not(:last-child) {
   border-bottom: 1px solid var(--border-color);
 }
 
-.option.noBorderBottom {
+.choice.noBorderBottom {
   border-bottom: none;
 }
 
 @media (min-width: 786px) {
-  .option:nth-child(odd) {
+  .choice:nth-child(odd) {
     border-right: 1px solid var(--border-color);
   }
 }
 
-.option input {
+.choice input {
   position: absolute;
   left: -999px;
 }
 
-.option label {
+.choice label {
   position: absolute;
   left: 0;
   right: 0;
@@ -71,19 +72,19 @@
   cursor: pointer;
 }
 
-.form.success .option label,
-.form.failed .option label {
+.form.success .choice label,
+.form.failed .choice label {
   cursor: default;
 }
 
-.option svg {
+.choice svg {
   position: relative;
   top: 6px;
   animation: appear 0.2s ease;
 }
 
-.form.success .option .input,
-.form.failed .option .input {
+.form.success .choice .input,
+.form.failed .choice .input {
   opacity: 0.3;
 }
 
@@ -96,4 +97,22 @@
     opacity: 1;
     transform: scale(1);
   }
+}
+
+.info {
+  --color: var(--ifm-hr-background-color);
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: 1px solid var(--border-color);
+  color: var(--color);
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 5px 8px;
+  line-height: 1;
+}
+
+.info.action {
+  --color: var(--ifm-color-danger);
+  cursor: pointer;
 }
