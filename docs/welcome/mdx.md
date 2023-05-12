@@ -24,9 +24,11 @@ export const Highlight = ({children, color}) => ( <span style={{
 
 We can also get a little creative with it. Below are two examples of the same `Quiz` component with different props. Can you try and answer the following questions?
 
-<Quiz name="quiz1" question="What function allows you to render React content in an HTML page?" answer="ReactDOM.render()" options={[ 'ReactDOM.start()', 'ReactDOM.render()', 'React.render()', 'React.mount()', 'React.memo()' ]} />
+<Quiz name="quiz1" question="What function allows you to render React content in an HTML page?" answer="ReactDOM.render()" choices={[ 'ReactDOM.start()', 'ReactDOM.render()', 'React.render()', 'React.mount()', 'React.memo()' ]} />
 
-<Quiz name="quiz2" question="Which hook is used to create states inside functional components" answer="React.useState" options={[ 'ReactDOM.useState', 'ReactDOM.useHookState', 'React.useState', 'React.useHookState' ]} />
+<Quiz name="quiz2" question="Which hook is used to create states inside functional components?" answer="React.useState" choices={[ 'ReactDOM.useState', 'ReactDOM.useHookState', 'React.useState', 'React.useHookState' ]} />
+
+<Quiz name="quiz3" question="What are the different ways to share data in React?" answers={[ 'State', 'Prop', 'Context' ]} choices={[ 'State', 'Country', 'District', 'Context', 'Prop' ]} />
 
 Of course the following `EditedBy` is also a shared component. It takes name and date as props :smile:
 
