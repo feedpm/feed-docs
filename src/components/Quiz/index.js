@@ -101,10 +101,7 @@ export default ({question, name, answer, answers, choices}) => {
       className={`${styles.form} ${
         isComplete ? (isCorrect ? styles.success : styles.failed) : ''
       }`}>
-      <p className={styles.question}>
-        {question}
-        {isMultipleChoice ? <small>Choose multiple</small> : null}
-      </p>
+      <p className={styles.question}>{question}</p>
       {isComplete ? (
         <button
           className={`${styles.info} ${styles.action}`}
