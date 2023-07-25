@@ -1,6 +1,10 @@
 import React from 'react';
 
-export default ({isCorrect}) => (
+interface CheckIconProps {
+  isCorrect: boolean;
+}
+
+export default ({isCorrect}: CheckIconProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     height="24"

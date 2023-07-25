@@ -10,7 +10,7 @@ You can skip to [Steps](#sidebarjs), if you already know the basics.
 
 ## Docusauras alpha version\*
 
-We have built this portal with the excellent documentation tool called Docusaurus. We are using [version 2-alpha](https://v2.docusaurus.io/). We will merge newer upgrades and fixes release by the Docusaurus team periodically.
+We have built this portal with the excellent documentation tool called Docusaurus. We are using [version 2](https://v2.docusaurus.io/). We will merge newer upgrades and fixes release by the Docusaurus team periodically.
 
 In order to contribute, you don't need to understand how Docusaurus works. However, if you are interested in it or wish to start another project, you can start with the [Guides](https://v2.docusaurus.io/docs/creating-pages) sections.
 
