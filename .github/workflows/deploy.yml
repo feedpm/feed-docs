@@ -16,6 +16,8 @@ jobs:
           node-version: 18
           cache: yarn
 
+      - name: Create env file
+        run: echo ${{ secrets.ENV }} >> .env
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Test integrity

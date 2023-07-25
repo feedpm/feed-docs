@@ -25,6 +25,7 @@
     "@docusaurus/module-type-aliases": "^2.4.1",
     "@tsconfig/docusaurus": "^2.0.0",
     "babel-eslint": "^10.1.0",
+    "dotenv": "^16.3.1",
     "eslint": "^8.39.0",
     "husky": "^4.2.3",
     "jest": "^25.1.0",
